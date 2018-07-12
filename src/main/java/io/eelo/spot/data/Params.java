@@ -115,4 +115,8 @@ public class Params {
     public String getAutocompleter() {
         return autocompleter;
     }
+
+    public SearchQuery generateSearchQuery() {
+        return new SearchQuery(query, category, pageno, timerange, language, safesearch);
+    }
 }

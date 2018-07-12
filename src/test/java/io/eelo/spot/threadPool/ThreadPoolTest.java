@@ -1,7 +1,6 @@
-package io.eelo.spot.search.threadPool;
+package io.eelo.spot.threadPool;
 
 import io.eelo.spot.TestUtils;
-import io.eelo.spot.threadPool.ThreadPool;
 import org.junit.Test;
 
 import java.util.List;
